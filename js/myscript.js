@@ -1,19 +1,19 @@
-var Nome;
-var Cognome;
-var ColorePreferito;
+var nome;
+var cognome;
+var colorePreferito;
 
-var Nome = prompt("Inserisci nome:");
-document.getElementById("Nome").innerHTML = Nome;
+var nome = prompt("Inserisci nome:");
+document.getElementById("Nome").innerHTML = nome;
 console.log("Inserimento nome");
 
-var Cognome = prompt("Inserisci cognome:");
-document.getElementById("Cognome").innerHTML = Cognome;
+var cognome = prompt("Inserisci cognome:");
+document.getElementById("Cognome").innerHTML = cognome;
 console.log("Inserimento cognome");
 
 
-var ColorePreferito = prompt("Colore preferito:");
-document.getElementById("ColorePreferito").innerHTML = ColorePreferito;
+var colorePreferito = prompt("Colore preferito:");
+document.getElementById("ColorePreferito").innerHTML = colorePreferito;
 console.log("Inserimento colore");
 
-document.getElementById("PasswordGenerata").innerHTML = (Nome + Cognome + ColorePreferito + 21);
-console.log("Generazione Password")
+document.getElementById("PasswordGenerata").innerHTML = (nome + cognome + colorePreferito + 21);
+console.log("Generazione Password");
